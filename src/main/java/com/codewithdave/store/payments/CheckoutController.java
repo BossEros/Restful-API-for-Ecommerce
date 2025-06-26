@@ -1,9 +1,9 @@
 package com.codewithdave.store.payments;
 
-import com.codewithdave.store.dtos.ErrorDto;
-import com.codewithdave.store.exceptions.CartEmptyException;
-import com.codewithdave.store.exceptions.CartNotFoundException;
-import com.codewithdave.store.repositories.OrderRepository;
+import com.codewithdave.store.common.ErrorDto;
+import com.codewithdave.store.carts.CartEmptyException;
+import com.codewithdave.store.carts.CartNotFoundException;
+import com.codewithdave.store.orders.OrderRepository;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

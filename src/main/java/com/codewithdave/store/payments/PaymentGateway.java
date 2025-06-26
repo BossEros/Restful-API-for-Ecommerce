@@ -1,6 +1,6 @@
 package com.codewithdave.store.payments;
 
-import com.codewithdave.store.entities.Order;
+import com.codewithdave.store.orders.Order;
 
 import java.util.Optional;
 

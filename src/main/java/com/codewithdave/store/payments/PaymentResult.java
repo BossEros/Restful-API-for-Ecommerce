@@ -1,6 +1,6 @@
 package com.codewithdave.store.payments;
 
-import com.codewithdave.store.entities.PaymentStatus;
+import com.codewithdave.store.orders.PaymentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

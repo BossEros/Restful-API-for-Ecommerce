@@ -1,12 +1,12 @@
 package com.codewithdave.store.payments;
 
-import com.codewithdave.store.entities.Order;
-import com.codewithdave.store.exceptions.CartEmptyException;
-import com.codewithdave.store.exceptions.CartNotFoundException;
-import com.codewithdave.store.repositories.CartRepository;
-import com.codewithdave.store.repositories.OrderRepository;
-import com.codewithdave.store.services.AuthService;
-import com.codewithdave.store.services.CartService;
+import com.codewithdave.store.orders.Order;
+import com.codewithdave.store.carts.CartEmptyException;
+import com.codewithdave.store.carts.CartNotFoundException;
+import com.codewithdave.store.carts.CartRepository;
+import com.codewithdave.store.orders.OrderRepository;
+import com.codewithdave.store.auth.AuthService;
+import com.codewithdave.store.carts.CartService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

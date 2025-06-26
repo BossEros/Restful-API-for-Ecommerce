@@ -1,9 +1,9 @@
 package com.codewithdave.store.payments;
 
 
-import com.codewithdave.store.entities.Order;
-import com.codewithdave.store.entities.OrderItem;
-import com.codewithdave.store.entities.PaymentStatus;
+import com.codewithdave.store.orders.Order;
+import com.codewithdave.store.orders.OrderItem;
+import com.codewithdave.store.orders.PaymentStatus;
 import com.stripe.exception.SignatureVerificationException;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Event;
