@@ -100,18 +100,6 @@ SPRING_PROFILES_ACTIVE=dev
 
 <hr>
 
-<h2>🧪 Sample Request (Login)</h2>
-
-<pre><code class="language-json">
-POST /auth/login
-Content-Type: application/json
-
-{
-  "email": "user@example.com",
-  "password": "securepassword"
-}
-</code></pre>
-
 <hr>
 
 <h2>📄 License</h2>
