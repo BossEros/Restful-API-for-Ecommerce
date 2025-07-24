@@ -100,8 +100,6 @@ SPRING_PROFILES_ACTIVE=dev
 
 <hr>
 
-<hr>
-
 <h2>📄 License</h2>
 
 <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
